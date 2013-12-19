@@ -14,6 +14,6 @@ window.onload = function() {
       var imgEl = document.getElementById("theimg");
       count = (count < MAX) ? count+1 : 1;
       imgEl.src = "images/number_"+(count)+".png";      
-      console.log("current src:"+imgEl.src);
+      //console.log("current src:"+imgEl.src);
   }, DELAY);
 }
